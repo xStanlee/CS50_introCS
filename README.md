@@ -20,4 +20,4 @@ I made this repository to share my solutions and post my progression what i've d
   * [runoff](/C/pset3/runoff)
 
 
-##### Coping a code is absolutly pointless if you wanted to learn. 
+##### Coping a code is absolutly pointless if you want to learn.

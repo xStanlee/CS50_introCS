@@ -1,7 +1,7 @@
-#Runoff
+# Runoff
 
-##Boosted Plurality
+## Boosted Plurality
 
-###Explanation on walkthrough:
+### Explanation on walkthrough:
 
-###https://cs50.harvard.edu/x/2020/psets/3/runoff/#runoff
+#### https://cs50.harvard.edu/x/2020/psets/3/runoff/#runoff

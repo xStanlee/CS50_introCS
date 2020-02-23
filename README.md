@@ -1,9 +1,8 @@
 # CS50_introCS
 Harvard's CS50 2020' solutions from pset1 to pset7.<br>
-I made this repository to share my solutions and post my progression what i've done through the Harvard University's course and also take it to stretch my mind. Link to course <a href='https://www.edx.org/course/cs50s-introduction-to-computer-science'>2020 CS50 introduction to computer science</a><br>
-You can find the materials for the course <a href='https://cs50.harvard.edu/x/2020/'>here</a> and look at the assignments specifications linked right of every section in the table of contents. <br>
-Hope this is helpful to other students, you are free to contact me for any question or clarification.
-Every exercise in this repository scored 100% on submission.
+I made this repository to share my solutions and post my progression what i've done through the Harvard University's course and also take it to stretch my mind.<br>
+## Link to course <br><a href='https://www.edx.org/course/cs50s-introduction-to-computer-science'>2020 CS50 introduction to computer science</a><br>
+### You can find the materials for the course <a href='https://cs50.harvard.edu/x/2020/'>here</a> and look at the assignments specifications linked right of every section in the table of contents. <br>
 
 <h2> Table Of Contents </h2>
 

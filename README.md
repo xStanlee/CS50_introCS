@@ -19,5 +19,5 @@ I made this repository to share my solutions and post my progression what i've d
   * [plurality](/C/pset3/plurality)
   * [runoff](/C/pset3/runoff)
 
-DISCLAIMER:
-Please don't just copy the code, it's totally pointless if you actually wanna learn the subject and against the policy of the course.
+
+##### Coping a code is absolutly pointless if you wanted to learn. 

@@ -4,7 +4,7 @@ Harvard's CS50 2020' solutions from pset1 to pset7.<br>
 I made this repository to share my solutions and post my progression what i've done through the Harvard University's course and also take it to stretch my mind.<br>
 
 ## Link to course: 
-###<a href='https://www.edx.org/course/cs50s-introduction-to-computer-science'>2020 CS50 introduction to computer science</a><br>
+### <a href='https://www.edx.org/course/cs50s-introduction-to-computer-science'>2020 CS50 introduction to computer science</a><br>
 ##### You can find the materials for the course <a href='https://cs50.harvard.edu/x/2020/'>here</a> and look at the assignments specifications linked below. <br>
 
 <h2> Table Of Contents </h2>

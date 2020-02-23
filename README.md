@@ -11,11 +11,11 @@ I made this repository to share my solutions and post my progression what i've d
 
 - [Problem Set 1: C](/pset1) - <a href='https://cs50.harvard.edu/x/2020/psets/1/'> Assignments 1</a>
   * [credit](/pset1/credit)
-- [Problem Set 2: Crypto](/C/pset2) - <a href='https://cs50.harvard.edu/x/2020/psets/2/'> Assignments 2</a> 
+- [Problem Set 2: Crypto](/pset2) - <a href='https://cs50.harvard.edu/x/2020/psets/2/'> Assignments 2</a> 
   * [caesar](/pset2/caesar)
   * [substitution](/pset2/substitution)
   * [readability](/pset2/readability)
-- [Problem Set3: Elections](/C/pset3) - <a href='https://cs50.harvard.edu/x/2020/psets/3/'> Assignments 3</a> 
+- [Problem Set3: Elections](/pset3) - <a href='https://cs50.harvard.edu/x/2020/psets/3/'> Assignments 3</a> 
   * [plurality](/pset3/plurality)
   * [runoff](/pset3/runoff)
 

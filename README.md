@@ -1,6 +1,6 @@
 # CS50_introCS
-Harvard's CS50 2020' solutions from pset1 to pset7
-// I made this repository to post my solutions to Harvard University's <a href='https://www.edx.org/course/cs50s-introduction-to-computer-science'>2020 CS50 introduction to computer science</a> exercises and document my progress during the course. <br>
+Harvard's CS50 2020' solutions from pset1 to pset7.<br>
+I made this repository to share my solutions and post my progression what i've done through the Harvard University's course and also take it to stretch my mind. Link to course <a href='https://www.edx.org/course/cs50s-introduction-to-computer-science'>2020 CS50 introduction to computer science</a><br>
 You can find the materials for the course <a href='https://cs50.harvard.edu/x/2020/'>here</a> and look at the assignments specifications linked right of every section in the table of contents. <br>
 Hope this is helpful to other students, you are free to contact me for any question or clarification.
 Every exercise in this repository scored 100% on submission.
@@ -8,11 +8,6 @@ Every exercise in this repository scored 100% on submission.
 <h2> Table Of Contents </h2>
 
 - [Problem Set 1: C](/C/pset1) - <a href='https://cs50.harvard.edu/x/2020/psets/1/'> Assignments 1</a>
-  * [hello](/C/pset1/hello)
-  * mario
-    + [less](/C/pset1/mario/less)
-    + [more](/C/pset1/mario/more)
-  * [cash](/C/pset1/cash)
   * [credit](/C/pset1/credit)
 - [Problem Set 2: Crypto](/C/pset2) - <a href='https://cs50.harvard.edu/x/2020/psets/2/'> Assignments 2</a> 
   * [caesar](/C/pset2/caesar)

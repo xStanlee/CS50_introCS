@@ -9,15 +9,15 @@ I made this repository to share my solutions and post my progression what i've d
 
 <h2> Table Of Contents </h2>
 
-- [Problem Set 1: C](/C/pset1) - <a href='https://cs50.harvard.edu/x/2020/psets/1/'> Assignments 1</a>
-  * [credit](/C/pset1/credit)
+- [Problem Set 1: C](/pset1) - <a href='https://cs50.harvard.edu/x/2020/psets/1/'> Assignments 1</a>
+  * [credit](/pset1/credit)
 - [Problem Set 2: Crypto](/C/pset2) - <a href='https://cs50.harvard.edu/x/2020/psets/2/'> Assignments 2</a> 
-  * [caesar](/C/pset2/caesar)
-  * [substitution](/C/pset2/substitution)
-  * [readability](/C/pset2/readability)
+  * [caesar](/pset2/caesar)
+  * [substitution](/pset2/substitution)
+  * [readability](/pset2/readability)
 - [Problem Set3: Elections](/C/pset3) - <a href='https://cs50.harvard.edu/x/2020/psets/3/'> Assignments 3</a> 
-  * [plurality](/C/pset3/plurality)
-  * [runoff](/C/pset3/runoff)
+  * [plurality](/pset3/plurality)
+  * [runoff](/pset3/runoff)
 
 
 ##### Coping a code is absolutly pointless if you want to learn.

@@ -19,7 +19,7 @@ I made this repository to share my solutions and post my progression what i've d
   * [plurality](/pset3/plurality)
   * [runoff](/pset3/runoff)
 - [Problem Set 4: Forensics](/pset4) - <a href='https://cs50.harvard.edu/x/2020/psets/4/'> Assignments 4</a> 
-  * filter(/pset4)
+  * [filter](/pset4)
 
 
 

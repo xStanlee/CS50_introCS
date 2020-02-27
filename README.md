@@ -20,7 +20,8 @@ I made this repository to share my solutions and post my progression what i've d
   * [runoff](/pset3/runoff)
 - [Problem Set 4: Forensics](/pset4) - <a href='https://cs50.harvard.edu/x/2020/psets/4/'> Assignments 4</a> 
   * [filter](/pset4)
-
+- [Problem Set 5: Speller](/pset5) - <a href='https://cs50.harvard.edu/x/2020/psets/5/speller/'> Speller assignment</a>
+  * [dictionary.c](pset5/dictionary.c)
 
 
 ##### Coping a code is absolutly pointless if you want to learn.

@@ -12,14 +12,14 @@ I made this repository to share my solutions and post my progression what i've d
 - [Problem Set 1: C](/pset1.c) - <a href='https://cs50.harvard.edu/x/2020/psets/1/'> Assignments 1</a>
   * [credit](/pset1)
 - [Problem Set 2: Crypto](/pset2) - <a href='https://cs50.harvard.edu/x/2020/psets/2/'> Assignments 2</a> 
-  * [caesar](/pset2/caesar.c)
-  * [substitution](/pset2/substitution.c)
-  * [readability](/pset2/readability.c)
+  * [caesar](/pset2/caesar/caesar.c)
+  * [substitution](/pset2/substitution/substitution.c)
+  * [readability](/pset2/readability/readability.c)
 - [Problem Set3: Elections](/pset3) - <a href='https://cs50.harvard.edu/x/2020/psets/3/'> Assignments 3</a> 
   * [plurality](/pset3/plurality.c)
-  * [runoff](/pset3/runoff.c)
+  * [runoff](/pset3/runoff/runoff.c)
 - [Problem Set 4: Forensics](/pset4) - <a href='https://cs50.harvard.edu/x/2020/psets/4/'> Assignments 4</a> 
-  * [filter](/pset4/filter.c)
+  * [filter](/pset4/filter/filter.c)
 - [Problem Set 5: Speller](/pset5) - <a href='https://cs50.harvard.edu/x/2020/psets/5/speller/'> Speller assignment</a>
   * [speller](/pset5/dictionary.c)
 

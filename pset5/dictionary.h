@@ -9,6 +9,10 @@
 // (e.g., pneumonoultramicroscopicsilicovolcanoconiosis)
 #define LENGTH 45
 
+// Hashtable size for a nodes
+
+#define TABLE_SIZE 16384
+
 // Node struct
 
 

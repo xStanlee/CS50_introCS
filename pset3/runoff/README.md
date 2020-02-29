@@ -4,4 +4,4 @@
 
 ### Explanation on walkthrough:
 
-#### https://cs50.harvard.edu/x/2020/psets/5/speller/
+#### https://cs50.harvard.edu/x/2020/weeks/3/

@@ -2,10 +2,10 @@
 
 ## Height: 4
    
-      #
-     ##
-    ###
-   ####
+         #
+        ##
+       ###
+      ####
 
 ### Explanation on walkthrough:
 

@@ -6,7 +6,6 @@
          ##
          ###
          ####
-         #####
 
 ### Explanation on walkthrough:
 

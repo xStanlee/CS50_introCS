@@ -7,13 +7,13 @@ l = 1
 m = n-1
 for i in range(n):
     if m>=0 or n>=k:
-        for h in range(m):
+        for i in range(m):
             print(" ", end = '')
-        for k in range(l):
+        for i in range(l):
             print("#", end = '')
-        for j in [0]:
+        for i in [0]:
             print(" ", end = '')
-        for k in range(l):
+        for i in range(l):
             print("#", end = '')
         l += 1
         m -= 1

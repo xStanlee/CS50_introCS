@@ -9,7 +9,6 @@
         long valueOfCard = card;
         long cardValue = card;
         long visa = card;
-        //printf("%ld\n", cardValue);
         long count = 0;
        
                 while(valueOfCard != 0){    
@@ -18,21 +17,16 @@
             }
         cardValue = cardValue / (pow  (10, (count - 2)));
         visa = visa / (pow  (10, (count - 1)));
-        //printf("%ld\n", cardValue);
         long fullValidation = 0;
-        //printf("%ld\n", card);        
             for(int i = count; i > 0; i = i - 1){
                 if(i % 2 == 0)  {
-                    //printf("Even\n");
                     fullValidation = fullValidation + (card % 10);
                     card /= 10;
-                    //printf("%ld\n", card);
                 } else {
-                    //printf("Odd\n");
                     if(2*((card % 10)) < 10) {
                     fullValidation = fullValidation + 2*((card % 10));
                     card /= 10;
-                    } else {//printf("%ld\n", card);
+                    } else {
                     fullValidation = fullValidation + ((2*((card % 10))) % 10) + 1;
                     card /= 10;
                     }

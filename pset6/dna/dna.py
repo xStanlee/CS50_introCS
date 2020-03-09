@@ -3,71 +3,119 @@ import sys
 from cs50 import get_string
 from itertools import *
 
-strSeqPath = str(sys.argv[2])
-strDBPath = str(sys.argv[1])
+newstrsCmp = []
 
-## Checking theres putted an 2 extra args into program ##
+## function for change each value inside a list
 
-if len(sys.argv) != 3:
-    print("error!")
+def lengthTaker(diffrences):
+    for everySingle in diffrences:
+        if len(everySingle) == 1:
+            ## printing match
+            print(everySingle[0])
+        else:
+            return
 
-## Main program ##
+def typeChanger(comperer):
 
-else:
-    ## Read path ##
-    f = open('sequences/' + strSeqPath, 'r')
-    ## Read file ##
-    sequence = f.read()
-    ## Length of string file ##
-    seqLen = len(sequence)
+    for single in comperer:
 
-    print(sequence)
+        single = str(single)
+        newstrsCmp.append(single)
 
-           ########## OPEN DB AS STRING ##############
+def returnNotMatches(listA, listB):
 
-        ## Again search a path in ##
+    return [[x for x in listA if x not in listB], [x for x in listB if x not in listA]]
 
-    with open('databases/' + strDBPath, 'r') as database:
+def checkIfMatch(elem, comperer):
 
-        ## Read CSV file ##
-        justreader = csv.reader(database)
-        ## Take only 1st row of file ##
-        row1 = next(justreader)
-        ## Delete index 0 ##
-        row1.pop(0)
-                                                    #print(row1[0])
-        ## Length of each genom ##
-        table_of_num = []
-        for i in row1:
-            num = len(i)
-            table_of_num.append(num)
+    checkbox = False
 
-        ## List for separated element ##
-        STRS = []
-        o = 0                                            #print(table_of_num[0])
-        for z in range(len(table_of_num)):
-            j = table_of_num[z]
+    for compare in range(1, elem):
+        compare = int(compare)
+        if compare in comperer:
+            checkbox = True
+        else:
+            checkbox = False
+    return checkbox
 
-        ## Appending separated String to list ##
-            while(seqLen >= j):
-                STRS.append(sequence[o:j])
-                j += table_of_num[z]
-                o += table_of_num[z]
+def main():
+
+    strSeqPath = str(sys.argv[2])
+    strDBPath = str(sys.argv[1])
+
+    ## Checking theres putted an 2 extra args into program ##
+
+    if len(sys.argv) != 3:
+        print("error!")
+
+    ## Main program ##
+
+    else:
+        ## Read path ##
+        f = open('sequences/' + strSeqPath, 'r')
+        ## Read file ##
+        sequence = f.read()
+        ## Length of string file ##
+        seqLen = len(sequence)
+
+        print(sequence)
+
+               ########## OPEN DB AS STRING ##############
+
+            ## Again search a path in ##
+
+        with open('databases/' + strDBPath, 'r') as database:
+
+            ## Read CSV file ##
+            justreader = csv.reader(database)
+            ## Take only 1st row of file ##
+            row1 = next(justreader)
+            ## Delete index 0 ##
+            row1.pop(0)
+
+            seqStorer = []
+            names = []
+
+            ### Reading through the CSV for seq ###
+            for index in range(3):
+                line = next(justreader)
+                #line.pop(0)
+                seqStorer.append(line)
+
+            ## Length of each genom ##
+            table_of_num = []
+            for i in row1:
+                num = len(i)
+                table_of_num.append(num)
+
+            ## List for separated element ##
+            strsCmp = []
             o = 0
-        print(STRS[0])
-        print(row1[0])
-        count = 0
+            counter = 0
 
-        for eachOne in STRS:
-            if row1[0] in STRS[eachOne]:
-                print("true")
+            for z in range(len(table_of_num)):
+                j = table_of_num[z]
+
+            ## Appending separated String to list ##
+                while(seqLen >= j):
+                        if row1[z] == sequence[o:j]:
+                            j += table_of_num[z]
+                            o += table_of_num[z]
+                            counter += 1
+                        else:
+                            j += 1
+                            o += 1
+                # Create list for CMPRS
+                strsCmp.append(counter)
+                # Reset the counters
+                counter = 0
+                o = 0
+
+            typeChanger(strsCmp)
+
+            for each in seqStorer:
+
+                lengthTaker(returnNotMatches(each, newstrsCmp))
 
 
-
-
-         ############## OPEN DB AS COL ##################
-
-    with open(f'databases/{str(sys.argv[1])}', 'r') as datatable:
-        reader = csv.DictReader(datatable)
-        #for row in reader:
-            #print(row['name'], row['AGATC'], row['AATG'], row['TATC'])
+main()

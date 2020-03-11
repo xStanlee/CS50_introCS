@@ -1,6 +1,7 @@
-// Shows 10.0 ratings film (was curious)
+/*
+Shows 10.0 ratings film (was curious)
 
-/*SELECT ratings.rating, ratings.votes
+SELECT ratings.rating, ratings.votes
 FROM movies
 INNER JOIN ratings ON movies.id = ratings.movie_id WHERE ratings.rating = 10;
 */

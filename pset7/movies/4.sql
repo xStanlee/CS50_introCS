@@ -1,5 +1,5 @@
 /*
-Shows 10.0 ratings film (was curious)
+Shows 10.0 rating films from IMBd (was curious)
 
 SELECT ratings.rating, ratings.votes
 FROM movies

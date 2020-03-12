@@ -40,17 +40,18 @@ def checkIfMatch(elem, comperer):
 
 def main():
 
-    strSeqPath = str(sys.argv[2])
-    strDBPath = str(sys.argv[1])
-
-    ## Checking theres putted an 2 extra args into program ##
+     ## Checking theres putted an 2 extra args into program ##
 
     if len(sys.argv) != 3:
         print("error!")
 
-    ## Main program ##
+        ## Main program ##
 
     else:
+
+        strSeqPath = str(sys.argv[2])
+        strDBPath = str(sys.argv[1])
+
         ## Read path ##
         f = open('sequences/' + strSeqPath, 'r')
         ## Read file ##

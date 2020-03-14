@@ -24,8 +24,8 @@ Rank 1: Charlie
 Rank 2: Alice  
 Rank 3: Bob  
 
-Alice
-Bob
+Alice  
+Bob  
 Charlie
 
 ### Explanation on walkthrough:

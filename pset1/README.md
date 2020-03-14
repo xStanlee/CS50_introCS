@@ -44,19 +44,23 @@ In credit.c at right, write a program that prompts the user for a credit card nu
 Consider the below representative of how your own program should behave when passed a valid credit card number (sans hyphens).
 
 $ ./credit
-Number: 4003600000000014
-CARD STATUS: VALID
-TYPE OF CARD: VISA
+
+  Number: 4003600000000014
+  CARD STATUS: VALID
+  TYPE OF CARD: VISA
 
 $ ./credit
-Number: 5392001903647423
-CARD STATUS: VALID
-TYPE OF CARD: MASTERCARD
+
+  Number: 5392001903647423
+  CARD STATUS: VALID
+  TYPE OF CARD: MASTERCARD
 
 $ ./credit
-Number: 5392001903647424
-CARD STATUS: INVALID
+
+  Number: 5392001903647424
+  CARD STATUS: INVALID
 
 $ ./credit
-Number: 6176292929
-CARD STATUS: INVALID
+
+  Number: 6176292929
+  CARD STATUS: INVALID

@@ -10,9 +10,9 @@ Perhaps the simplest way to hold an election, though, is via a method commonly k
 
 Your program should behave per the examples belows.
 
-$ ./plurality Alice Bob
-Number of voters: 3
-Vote: Alice
-Vote: Bob
-Vote: Alice
+$ ./plurality Alice Bob  
+Number of voters: 3 </br>
+Vote: Alice</br>
+Vote: Bob</br>
+Vote: Alice</br>
 Alice

@@ -99,5 +99,5 @@ void print_winner(void)
             }
         }
     }
-    printf("The winner is %s and he/she've %i votes", winnerOne, winner);
+    printf("The winner is %s and he/she've %i votes\n", winnerOne, winner);
 }

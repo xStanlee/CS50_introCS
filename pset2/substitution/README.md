@@ -23,5 +23,5 @@ Here’s how the program might work if the user provides a key of VCHPRZGJNTLSKF
 
 $ ./substitution  
 Put the key on:  VCHPRZGJNTLSKFBDQWAXEUYMOI</br>
-Put the text to encrypt: hello, world
+Put the text to encrypt: hello, world</br>
 Encrypted text: jrssb, ybwsp

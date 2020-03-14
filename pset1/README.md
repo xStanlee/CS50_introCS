@@ -49,8 +49,6 @@ VISA
 Now, get_long itself will reject hyphens (and more) anyway:
 
 $ ./credit
-Number: 4003-6000-0000-0014
-Number: foo
 Number: 4003600000000014
 VISA
 But it’s up to you to catch inputs that are not credit card numbers (e.g., a phone number), even if numeric:

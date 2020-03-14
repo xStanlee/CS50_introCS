@@ -45,8 +45,8 @@ Consider the below representative of how your own program should behave when pas
 
 $ ./credit
 
-  Number: 4003600000000014
-  CARD STATUS: VALID
+  Number: 4003600000000014</br>
+  CARD STATUS: VALID</br>
   TYPE OF CARD: VISA
 
 $ ./credit

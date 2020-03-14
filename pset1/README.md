@@ -51,16 +51,16 @@ $ ./credit
 
 $ ./credit
 
-  Number: 5392001903647423
-  CARD STATUS: VALID
+  Number: 5392001903647423</br>
+  CARD STATUS: VALID</br>
   TYPE OF CARD: MASTERCARD
 
 $ ./credit
 
-  Number: 5392001903647424
+  Number: 5392001903647424</br>
   CARD STATUS: INVALID
 
 $ ./credit
 
-  Number: 6176292929
+  Number: 6176292929</br>
   CARD STATUS: INVALID

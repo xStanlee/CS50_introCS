@@ -21,6 +21,6 @@ Here are a few examples of how the program might work. For example, if the user 
 
 Here’s how the program might work if the user provides a key of VCHPRZGJNTLSKFBDQWAXEUYMOI and a plaintext of hello, world:
 
-$ ./substitution VCHPRZGJNTLSKFBDQWAXEUYMOI</br>
-plaintext:  hello, world
+$ ./substitution  VCHPRZGJNTLSKFBDQWAXEUYMOI</br>
+plaintext:  hello, world</br>
 ciphertext: jrssb, ybwsp

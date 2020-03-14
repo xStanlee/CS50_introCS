@@ -1,5 +1,12 @@
 # Readability
 
+$ ./readability
+Type in article: Congratulations! Today is your day. You're off to Great Places! You're off and away!
+Letters: 250
+Words: 55
+Sentences: 2
+Grade: 10
+
 Reading Levels
 According to Scholastic, E.B. White’s “Charlotte’s Web” is between a second and fourth grade reading level, and Lois Lowry’s “The Giver” is between an eighth grade reading level and a twelfth grade reading level. What does it mean, though, for a book to be at a “fourth grade reading level”?
 

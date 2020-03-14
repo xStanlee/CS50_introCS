@@ -49,6 +49,5 @@
                 }
             }else {
                 printf("CARD STATUS: INVALID\n");
-                printf("%ld\n", card);
             }
     }

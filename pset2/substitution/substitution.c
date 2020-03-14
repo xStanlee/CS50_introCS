@@ -65,5 +65,5 @@ int main (void) {
 }
 
 
-printf("%s\n", temporary);
+printf("Encrypted text: %s\n", temporary);
 }

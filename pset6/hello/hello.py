@@ -1,3 +1,0 @@
-# HeavyOne 
-
-print("Hello world")

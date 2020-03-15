@@ -19,16 +19,16 @@ Alternatively, you’re welcome to download and unzip cdn.cs50.net/2019/fall/pse
 
 ## Specification queries
 
-In 1.sql, write a SQL query to list the titles of all movies released in 2008.
-Your query should output a table with a single column for the title of each movie.
-In 2.sql, write a SQL query to determine the birth year of Emma Stone.
-Your query should output a table with a single column and a single row (plus optional header) containing Emma Stone’s birth year.
-You may assume that there is only one person in the database with the name Emma Stone.
-In 3.sql, write a SQL query to list the titles of all movies with a release date on or after 2018, in alphabetical order.
-Your query should output a table with a single column for the title of each movie.
-Movies released in 2018 should be included, as should movies with release dates in the future.
-In 4.sql, write a SQL query to determine the number of movies with an IMDb rating of 10.0.
-Your query should output a table with a single column and a single row (plus optional header) containing the number of movies with a 10.0 rating.
+In 1.sql, write a SQL query to list the titles of all movies released in 2008.</br>
+Your query should output a table with a single column for the title of each movie.</br>
+In 2.sql, write a SQL query to determine the birth year of Emma Stone.</br>
+Your query should output a table with a single column and a single row (plus optional header) containing Emma Stone’s birth year.</br>
+You may assume that there is only one person in the database with the name Emma Stone.</br>
+In 3.sql, write a SQL query to list the titles of all movies with a release date on or after 2018, in alphabetical order.</br>
+Your query should output a table with a single column for the title of each movie.</br>
+Movies released in 2018 should be included, as should movies with release dates in the future.</br>
+In 4.sql, write a SQL query to determine the number of movies with an IMDb rating of 10.0.</br>
+Your query should output a table with a single column and a single row (plus optional header) containing the number of movies with a 10.0 rating.</br>
 In 5.sql, write a SQL query to list the titles and release years of all Harry Potter movies, in chronological order.
 Your query should output a table with two columns, one for the title of each movie and one for the release year of each movie.
 You may assume that the title of all Harry Potter movies will begin with the words “Harry Potter”, and that if a movie title begins with the words “Harry Potter”, it is a Harry Potter movie.

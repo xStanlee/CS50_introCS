@@ -27,7 +27,7 @@ I made this repository to share my solutions and post my progression what i've d
   * [dna](/pset6/dna)
   * [mario](/pset6/mario)
   * [mario_less](/pset6/mario_less)
--[Problem Set 7: SQL](/pset7) - <a href='https://cs50.harvard.edu/x/2020/psets/6/'> Assignments 7</a>
+- [Problem Set 7: SQL](/pset7) - <a href='https://cs50.harvard.edu/x/2020/psets/6/'> Assignments 7</a>
   * [movies](/pset7/movies)
   * [houses](/pset7/houses)
 

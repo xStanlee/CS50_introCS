@@ -2,7 +2,7 @@
 
 Implement a program to import student data into a database, and then produce class rosters.
 
-$ python import.py characters.csv
+$ python import.py characters.csv  
 $ python roster.py Gryffindor
 
 Lavender Brown, born 1979

@@ -23,13 +23,13 @@ I made this repository to share my solutions and post my progression what i've d
 - [Problem Set 5: Data Structures](/pset5) - <a href='https://cs50.harvard.edu/x/2020/psets/5/speller/'> Speller assignment</a>
   * [speller](/pset5/dictionary.c)
 - [Problem Set 6: Python](/pset6) - <a href='https://cs50.harvard.edu/x/2020/psets/6/'> Assignments 6</a>
- *[cash](/pset6/cash)
- *[dna](/pset6/dna)
- *[mario](/pset6/mario)
- *[mario_less](/pset6/mario_less)
+  * [cash](/pset6/cash)
+  * [dna](/pset6/dna)
+  * [mario](/pset6/mario)
+  * [mario_less](/pset6/mario_less)
 -[Problem Set 7: SQL](/pset7) - <a href='https://cs50.harvard.edu/x/2020/psets/6/'> Assignments 7</a>
- *[movies](/pset7/movies)
- *[houses](/pset7/houses)
+  * [movies](/pset7/movies)
+  * [houses](/pset7/houses)
 
 
 ##### Coping a code is absolutly pointless if you want to learn.
